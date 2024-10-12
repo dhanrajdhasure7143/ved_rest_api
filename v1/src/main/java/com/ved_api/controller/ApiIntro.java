@@ -15,7 +15,7 @@ public class ApiIntro {
     public <T> ResponseTemplate<T> getApiIntroduction() {
         String message = "Welcome to the Email Campaigning API. This API allows users to create and manage email campaigns easily. "
                 + "You can send emails using various providers by providing your credentials and the content you wish to send.";
-        
+//        New CHanges
         return new ResponseTemplate("Success", "API Info fetched Successfully", message);
     }
 }
